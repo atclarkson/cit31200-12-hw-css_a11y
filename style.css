@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Kristi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Kristi Regular'), local('Kristi-Regular'), url(https://fonts.gstatic.com/s/kristi/v11/uK_y4ricdeU6zwdhDRcX.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Monoton'), local('Monoton-Regular'), url(https://fonts.gstatic.com/s/monoton/v9/5h1aiZUrOngCibe4TkHLRw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+.img_cont {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.img_cont img {
+  max-width: 300px;
+  border: white 5px solid;
+  box-shadow: 1px 1px 10px #ccc;
+  margin: 1em;
+}
+.bad-color li {
+  padding: 1em;
+  font-size: 2em;
+  list-style-type: none;
+}
+.light-on-white {
+  color: yellow;
+}
+.blue-on-red {
+  color: blue;
+  background-color: red;
+}
+.purple-on-green {
+  color: purple;
+  background-color: green;
+}
+.fonts {
+  font-size: 2em;
+}
+.kristi {
+  font-family: 'Kristi', cursive;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.monoton {
+  font-family: 'Monoton', cursive;
+}
+/*# sourceMappingURL=style.css.map */
